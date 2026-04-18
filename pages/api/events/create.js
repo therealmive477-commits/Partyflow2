@@ -1,4 +1,4 @@
-import { supabase } from "../../../lib/supabase";
+import { supabase } from "../../../Lib/supabase";
 import { v4 as uuid } from "uuid";
 
 export default async function handler(req, res) {
