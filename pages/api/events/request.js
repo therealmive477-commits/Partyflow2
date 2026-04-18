@@ -1,5 +1,4 @@
-import { supabase } from "../../../lib/supabase";
-
+import { supabase } from "../../../Lib/supabase";
 export default async function handler(req,res){
 
   const { eventId, title, artist } = req.body;
